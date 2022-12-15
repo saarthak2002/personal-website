@@ -101,3 +101,14 @@ html, body {
 .resume-button:hover {
     background-color: #cfd8dc;
 }
+
+.footer {
+    background-color: var(--background-color);
+    padding: 1rem 2rem;
+}
+
+.footer-content {
+    margin-left: 6rem;
+    font-weight: bold;
+    color: white;
+}
