@@ -1,5 +1,7 @@
 :root {
     --background-color: #005b96;
+    --base-highlight-color: #54B2A9;
+    --blue-acent-color: #00D4FF;
     --main-font: 'Source Sans Pro', sans-serif;
 }
 
@@ -73,7 +75,7 @@ html, body {
 }
 
 .experience {
-    height: 800px;
+    height: 100vh;
 }
 
 #experience-title {
@@ -83,6 +85,7 @@ html, body {
     padding: 0;
     text-align: center;
     color: white;
+    padding-bottom: 2rem;
 }
 
 .resume-button {
@@ -111,4 +114,57 @@ html, body {
     margin-left: 6rem;
     font-weight: bold;
     color: white;
+}
+
+.cards-container {
+    display: flex;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: 1rem;
+    background-image: linear-gradient(var(--base-highlight-color), var(--blue-acent-color));
+    color: white;
+    border-radius: 0.5rem;
+  }
+
+.card-header img {
+    max-width:100%;
+    height:auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.card-body {
+    padding: 1rem 2rem;
+}
+
+.card-body p {
+    margin: 0;
+}
+
+.card-title {
+    padding: 1rem 2rem;
+}
+
+.card-title h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+.card-title h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+@media (max-width: 670px) {
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
 }
