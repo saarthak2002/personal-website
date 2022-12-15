@@ -84,3 +84,20 @@ html, body {
     text-align: center;
     color: white;
 }
+
+.resume-button {
+    font-family: var(--main-font);
+    font-size: large;
+    font-weight: bold;
+    color: #505168;
+    background-color: #6aeeb5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+}
+
+.resume-button:hover {
+    background-color: #cfd8dc;
+}
