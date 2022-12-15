@@ -54,9 +54,33 @@ html, body {
 }
 
 .header {
-    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    font-size: 2rem;
+    margin-left: 6rem;
+    color: white;
+    height: 100vh;
+    background-image: url(../resources/blobanimation.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.header-text h1{
+    margin: 0;
+    
 }
 
 .experience {
     height: 800px;
+}
+
+#experience-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
 }
