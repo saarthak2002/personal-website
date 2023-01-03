@@ -44,7 +44,7 @@ html, body {
 .nav-item:first-child {
     margin-right: auto;
     margin-left: 6rem;
-    font-size: xx-large;
+    font-size: 2.35rem;
     font-weight: bolder;
 }
 
@@ -54,6 +54,11 @@ html, body {
 
 .nav-item:last-child {
     margin-right: 6rem;
+}
+
+.terminal-text {
+    font-family: 'VT323', monospace;
+    font-size: 3rem;
 }
 
 .header {
@@ -87,7 +92,7 @@ html, body {
     text-align: center;
     color: white;
     padding-bottom: 2rem;
-    padding-top: 6rem;
+    padding-top: 6.5rem;
 }
 
 .resume-button {
